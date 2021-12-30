@@ -55,7 +55,7 @@ a {
 }
 
 ul {
-  padding-left: 15px
+  padding-left: 15px;
 }
 
 header {
@@ -87,6 +87,18 @@ footer {
 .contact-list a {
   padding: 5px;
   display: inline-block;
+}
+
+.tool-list {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.tool-list li {
+  display: inline-block;
+  padding: 5px;
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
 /* .education {
