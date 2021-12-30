@@ -1,0 +1,96 @@
+/* html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+} */
+
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #343434;
+  max-width: 900px;
+  width: 85%;
+  margin: 0 auto;
+  color: white;
+}
+
+h1 {
+  font-size: 32pt;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3, h4 {
+  color: palegoldenrod;
+  margin-bottom: 0;
+}
+
+h3 {
+  /*width: 20%;*/
+  float: left;
+  clear: left;
+  margin-top: 2px;
+  margin-left: 65px;
+}
+
+.info {
+  margin-left: 225px;
+  max-width: 600px;
+}
+
+address {
+  margin-left: 250px;
+}
+
+a {
+  color: firebrick;
+  font-weight: bold;
+}
+
+ul {
+  padding-left: 15px
+}
+
+header {
+  padding: 0px;
+  background-image: url("logo.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+footer {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.content-wrap {
+  max-width: 900px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-list a {
+  padding: 5px;
+  display: inline-block;
+}
+
+/* .education {
+  background-image: url(pencils.jpg);
+  background-position: top right;
+  background-size: cover;
+} */
